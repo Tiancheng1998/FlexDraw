@@ -14,6 +14,10 @@
 		EA03D9BC238E033900ABA204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA03D9BA238E033900ABA204 /* LaunchScreen.storyboard */; };
 		EA03D9C7238E033900ABA204 /* drawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03D9C6238E033900ABA204 /* drawTests.swift */; };
 		EA03D9D2238E033900ABA204 /* drawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03D9D1238E033900ABA204 /* drawUITests.swift */; };
+		EA03D9E22390710D00ABA204 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03D9E12390710D00ABA204 /* DrawingView.swift */; };
+		EA1556E323946FC700FB6730 /* Spline.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1556E223946FC700FB6730 /* Spline.swift */; };
+		EA1556E523A6D55D00FB6730 /* LineSimp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1556E423A6D55D00FB6730 /* LineSimp.swift */; };
+		EA3B300F23B032E60068E577 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B300E23B032E60068E577 /* Vector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,11 @@
 		EA03D9CD238E033900ABA204 /* drawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA03D9D1238E033900ABA204 /* drawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawUITests.swift; sourceTree = "<group>"; };
 		EA03D9D3238E033900ABA204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA03D9E12390710D00ABA204 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		EA1556E123942D1900FB6730 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EA1556E223946FC700FB6730 /* Spline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spline.swift; sourceTree = "<group>"; };
+		EA1556E423A6D55D00FB6730 /* LineSimp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSimp.swift; sourceTree = "<group>"; };
+		EA3B300E23B032E60068E577 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +106,14 @@
 		EA03D9B0238E033800ABA204 /* draw */ = {
 			isa = PBXGroup;
 			children = (
+				EA1556E123942D1900FB6730 /* MyPlayground.playground */,
 				EA03D9B1238E033800ABA204 /* AppDelegate.swift */,
-				EA03D9B3238E033800ABA204 /* ViewController.swift */,
+				EA03D9E12390710D00ABA204 /* DrawingView.swift */,
 				EA03D9B5238E033800ABA204 /* Main.storyboard */,
+				EA1556E223946FC700FB6730 /* Spline.swift */,
+				EA1556E423A6D55D00FB6730 /* LineSimp.swift */,
+				EA3B300E23B032E60068E577 /* Vector.swift */,
+				EA03D9B3238E033800ABA204 /* ViewController.swift */,
 				EA03D9B8238E033900ABA204 /* Assets.xcassets */,
 				EA03D9BA238E033900ABA204 /* LaunchScreen.storyboard */,
 				EA03D9BD238E033900ABA204 /* Info.plist */,
@@ -256,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA03D9E22390710D00ABA204 /* DrawingView.swift in Sources */,
 				EA03D9B4238E033800ABA204 /* ViewController.swift in Sources */,
+				EA1556E323946FC700FB6730 /* Spline.swift in Sources */,
+				EA1556E523A6D55D00FB6730 /* LineSimp.swift in Sources */,
+				EA3B300F23B032E60068E577 /* Vector.swift in Sources */,
 				EA03D9B2238E033800ABA204 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +451,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEBYTEU955;
 				INFOPLIST_FILE = draw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +470,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEBYTEU955;
 				INFOPLIST_FILE = draw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
